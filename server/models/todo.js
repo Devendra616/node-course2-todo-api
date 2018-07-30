@@ -14,7 +14,7 @@ var Todo = mongoose.model('Todo',{
         default:null
     }
 });
-
+/*
 var newTodo = new Todo({
     text:'Cook dinner'
 });
@@ -35,6 +35,6 @@ perpTodo.save().then((doc)=>{
     console.log('Saved data is ',doc);
 },(err)=>{
     console.log('Unable to save the data');
-});
+}); */
 
-module.exports = {Todo}
+module.exports = {Todo};
